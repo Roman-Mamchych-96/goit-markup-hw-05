@@ -509,3 +509,141 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+
+.backdrop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(46, 47, 66, 0.4);
+    
+    
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.made-modal {
+    width: 408px;
+    min-height: 584px;
+    background-color: rgba(252, 252, 252, 1);
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+    
+    /* display: flex;
+    flex-direction: column; */
+    
+
+}
+
+.modal-button {
+    border-radius: 15px;
+    margin-left: auto;
+    background-color: rgba(231, 233, 252, 1);
+    margin-bottom: 24px;
+    width: 24px;
+    height: 24px;
+    border: none;
+
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.name-icon {
+    position: absolute;
+    left: 0;
+}
+
+.text-modal {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    line-height: 24px;
+    color: rgba(46, 47, 66, 1);
+    }
+
+.modal-input {
+    width: 100%;
+    height: 58px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: white;
+    padding-left: 35px;
+    color: #4d5ae5;
+    /* border: 1px solid rgba(46, 47, 66, 0.16); */
+    outline: none;
+    
+}
+
+.input-label {
+    color: rgba(142, 143, 153, 1);
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 8px;
+    display: block;
+    border: none;
+    line-height: 14px;
+    
+}
+
+.modal-input:focus {
+    border-color: blue;
+}
+
+.modal-input:focus + .name-icon {
+    fill: blue;
+}
+
+.area-text {
+    resize: none;
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+    
+
+}
+
+.area-text::placeholder {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: 0.04em;
+        padding-left: 15px;
+        padding-top: 15px;
+}
+
+.check-policy {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: 0.04em;
+}
+
+.text-policy {
+    line-height: 133%;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #4D5AE5;
+}
+
+}
+/* .text-big {
+    width: 360px;
+    height: 120px;
+} */
+
