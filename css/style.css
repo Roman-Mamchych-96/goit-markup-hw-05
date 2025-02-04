@@ -742,7 +742,7 @@ letter-spacing: 0.02em;
     fill: transparent;
 }
 
-.input-chek:checked .check-policy > .text-policy {
+.input-chek:checked + .check-policy > .text-policy {
     background-color: #404bbf;
         border: none;
         fill: #F4F4FD;
