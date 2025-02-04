@@ -742,16 +742,24 @@ letter-spacing: 0.02em;
     fill: transparent;
 }
 
-
-.icon-finish {
-
+.input-chek:checked .check-policy > .text-policy {
+    background-color: #404bbf;
+        border: none;
+        fill: #F4F4FD;
 }
 
-.input-chek:checked + .text-policy {
+
+
+
+/* .icon-finish {
+
+} */
+
+/* .input-chek:checked + .text-policy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
-}
+} */
 
 .privacy-ankor {
     color: #4d5ae5;
