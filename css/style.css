@@ -667,7 +667,7 @@ letter-spacing: 0.02em;
 }
 
 .modal-input:focus + .name-icon {
-    fill: blue;
+    fill: #4D5AE5; 
 }
 
 .area-text {
